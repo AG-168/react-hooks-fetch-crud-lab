@@ -15,7 +15,7 @@ function QuestionItem({ question, onDeleteButton }) {
     fetch(`http://localhost:4000/questions/${id}`,{
     method:"DELETE"
     })
-    onDeleteButton(id)``
+    onDeleteButton(id)
   }
 
   function handleSelectChange (event) {
